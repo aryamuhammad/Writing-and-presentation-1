@@ -9,7 +9,7 @@
 - ### Terminal   
     User membutuhkan suatu tempat/aplikasi untuk memberikan perintah kepada sistem. Tempat tersebut dapat kita sebut dengan Terminal. Kita dapat menggunakan shell di terminal.
 - ### File System Structure 
-  ![File Sistem Struktur](filesystem.png)  
+  ![File Sistem Struktur](./asset/filesystem.png)  
   Dalam sistem, filesystem mengatur bagaimana data/file kita disimpan dalam sistem tersebut. biasanya disusun menggunakan struktur yang bentuknya mirip tree/pohon
 - ### Command 
     - pwd (print working directory)  
