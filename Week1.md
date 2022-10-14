@@ -1,5 +1,9 @@
 # Rangkuman Week 1
 
+###### Nama  : Muhammad Arya Wirawan
+###### Group : FE 2 - Kelompok 8
+###### Mentor : Thoriq Nur Faizal
+
 ## Unix Command Line
 
 -  ### Shell   
@@ -14,20 +18,46 @@
 - ### Command 
     - pwd (print working directory)  
         command untuk melihat current working directory
+    ``` 
+    Caranya: ketik pwd pada CLI kita maka akan menampilkan posisi terkini dari direktori yang aktif saat itu
+    ```
+
     - ls (list)  
-        command untuk melihat isi file yang ada di direktori  
+        command untuk melihat isi file yang ada di direktori 
+    ```
+   Caranya: ketik ls pada CLI, makan akan menampilkan list file yang ada pada direktori
+    ```
     - cd (change directory)  
         command untuk pindah ke direktori lain  
+    ```
+    Caranya: ketik cd {namaDirektori} atau masukkan path direktori yang akan kita tuju.
+    ```
     - cat  
         command untuk melihat isi file
+    ```
+    Caranya: ketikan cat {namaFile}. maka akan menampilkan file yang kita tuju tadi.
+    ```
     - head  
-        command untuk melihat beberapa line awal dari sebuah text file
+    ```
+    command untuk melihat beberapa line awal dari sebuah text file
+    Caranya: ketik head {namaFile}, maka akan menampilkan beberapa baris awal dari file tersebut.       
+    Kita juga dapat menambahkan -n {jumlah line yang akan dilihat} untuk melihat jumlah line secara spesifik
+    ```
     - tail  
         command untuk melihat beberapa line akhir dari sebuah text file
+    ```
+    Caranya sama seperti command pada head, kita dapat melihat beberapa line akhir dari sebuah file
+    ```
     - touch 
         command untuk membuat sebuah file
+    ```
+    Ketik touch {namaFile} untuk membuat file
+    ```
     - mkdir
         command untuk membuat sebuah direktori
+    ```
+    Ketik mkdir {namaDirektori} untuk membuat direktori atau folder
+    ```
     - cp
         command untuk menyalin file atau direktori
     - mv 
@@ -45,21 +75,21 @@
     Create file -  git init - git add - git commit - git push
 - ### Command pada Git 
     - git init <nama-project>. digunakan untuk membuat repository. 1 repo = 1 project = 1 direktori
-    ![](git%20init.jpeg)  
+    ![](asset/git%20init.jpeg)
     - git status. Digunakan untuk mengetahui status dari repository lokal
     - git add. Digunakan untuk menambahkan file baru pada repository 
-    ![](git%20add.png)
+    ![](asset/git%20add.png)
     - git commit. Digunakan untuk menyimpan perubahan yang telah dilakukan pada lokal repository.
-    ![](git%20commit.png)
+    ![](asset/git%20commit.png)
     - git push origin. digunakan untuk mengpublish file ke remote repository Github.
     Caranya, pertama kita buat repository terlebih dahulu di Github
-    ![](create-repo.jpeg)  
+    ![](asset/create-repo.jpeg)  
     setelah itu, kita push file yang ada di local repo kita dengan cara:
-    ![](git%20push.jpeg)
+    ![](asset/git%20push.jpeg)
     And, kita telah berhasil publish local repository kita ke Github
-    ![](gitpush2.jpeg)
+    ![](asset/gitpush2.jpeg)
     - git clone. digunakan untuk 'mendownload' atau melakukan cloning dari Github ke lokal/komputer
-    ![](gitclone.jpeg)
+    ![](asset/gitclone.jpeg)
 <!-- HTML -->
 ## HTML
 - ### Peran HTML
@@ -68,33 +98,33 @@
     Tools utama yang harus dipersiapkan untuk membuat HTML adalah Browser dan juga Code Editor. Browser kita dapat menggunakan Google Chrome, Mozilla Firefox dll. Sedangkan untuk Code Editor kita dapat menggunakan VS Code, Sublime text ataupun yang lain
 - ### HTML Sederhana
     - Element HTML
-    ![](elementhtml..png)
+    ![](asset/elementhtml..png)
     - Element HTML dengan Atribut
-    ![](htmlattribute..png)
+    ![](asset/htmlattribute..png)
     Struktur HTML paling sederhana membuat element html, head, dan body   
     Contoh kerangka HTML sederhana:
-    ![](kerangkahtml..png)
+    ![](asset/kerangkahtml..png)
 - ### Live Server
   Untuk dapat melihat file HTML kita di browser, kita dapat mengcopy path HTML kita.   
   atau kita dapat menggunakan Extension VS Code yaitu Live Server
-  ![](liveserver.jpeg)
+  ![](asset/liveserver.jpeg)
   Dengan menggunakan live server, kita dapat melihat file HTML kita di browser secara live.   
   Output:
-  ![](ouputliveserver.jpeg)
+  ![](asset/ouputliveserver.jpeg)
 - ### Popular Tag HTML
     HTML memiliki tag-tag yang paling sering digunakan ketika kita mendevelop sebuah website. Popular Tag HTML antara lain:
     - img
-    ![](img..png) 
+    ![](asset/img..png) 
     - video
-    ![](video..png)
+    ![](asset/video..png)
     - table
-    ![](table..png)
+    ![](asset/table..png)
     - form
-    ![](form..png)
+    ![](asset/form..png)
 - ### Semantic HTML
     Semantic HTML adalah penggunaan tag HTML yang sesuai dengan kebutuhan konten yang akan dibuat. Penggunaan Semantic HTML sangat membantu developer agar code kita lebih "Easy to read and understand". Kegunaan lain dari penggunaan Semantic HTML adalah meningkatkan aksesibilitas dan SEO Friendly.   
     Contoh Tag Semantic HTML: 
-    ![](semantic..png)
+    ![](asset/semantic..png)
 - ### Deployment
     Deploy adalah proses untuk menyebarkan aplikasi yang sudah kita buat agar bisa digunakan oleh orang-orang.   
     **Gimana caranya?**   
@@ -170,33 +200,97 @@
     - Apa itu javascript? 
         Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website. Javascript membuat website kita menjadi lebih interaktif
     - Bagaimana menjalankan Javascript? 
-        Javascript dijalankan pada website device setiap user
+        Javascript dijalankan pada website device setiap user. Sebagai developer, kita dapat menambahkan tag script pada file HTML
+    ```
+    <script src="script.js"></script>
+    ```
+    - Operator Aritmatika pada Javascript
+    ```
+    + : Penjumlahan
+    - : Pengurangan
+    * : Perkalian
+    % : Sisa pembagian (modulus)
+    ++ : increment
+    -- : decrement
+    / : Pembagian
+    ** : Pangkat
+
+    ```
+    - Operator Perbandingan dan logika pada Javascript
+    ```
+    == -> sama dengan (tidak dengan tipe data)
+    === -> sama dengan (dengan tipe data)
+    != -> tidak sama dengan (tidak dengan tipe data)
+    !== -> tidak sama dengan (dengan tipe data)
+    > -> lebih dari
+    < -> kurang dari
+    >= -> lebih dari sama dengan
+    <= -> kurang dari sama dengan
+    && : AND
+    || : or
+    ! : not
+    ```
     - Syntax Javascript 
       - alert()
       - prompt()
       - confirm()
       - console.log()
         ![](./asset/syntax..png)
+    Penjelasan:
+        - alert berfungsi untuk menampilkan pesan singkat di web browser
+        - prompt berfungsi untuk menampilkan input field yang dapat diisi oleh user di browser
+        - confirm berfungsi untuk menampilkan pesan konfirmasi pada web browser
+        - console.log berfungsi untuk menampilkan sesuatu pada console web browser. biasanya digunakan untuk debugging dll.
     - Tipe data   
       - number
+        Tipe data yang berbentuk angka
+    ```
+    var angka  = 10 // tipe data number
+    ```
       - string
+        Tipe data yang berbentuk huruf, menggunakan tanda kutip untuk menyimpan nilainya
+    ```
+    var nama = "Muhammad arya"
+    ```
       - boolean
+        Tipe data yang menyimpan nilai true or false
+    ```
+    let merah = true
+    ```
       - null
       - undefined
       - object
+        Tipe data yang dapat menyimpan property dan method
+    ```
+    let siswa = {
+        nama : 'arya',
+        kelas: 12
+    }
+    ```
     - Variable   
       - var
       - let
       - const 
         ![](./asset/variabel..png)
+    Penjelasan:
+        - var digunakan untuk menampung nilai pada javascript
+        - let merupakan versi terbaru dari var yang dapat menampung nilai. biasanya digunakan untuk menampung nilai yang berubah-ubah
+        - const digunakan untuk menampung nilai yang tidak berubah-rubah.
 - ### Conditional
     - Apa itu conditional?  
         Statement percabangan yang menggambarkan suatu kondisi. If condition akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut   
         Contohnya: jika cuaca hari ini hujan, maka kita membawa payung
     - Latihan
         ![](./asset/conditional..png)
+        Penjelasan:
+        -   Diketahui variabel angka = 12
+        -   Lakukan pengkondisian, jika sisa pembagian variabel angka dengan 2 = 0, maka console.log "Genap".
+        -  selain itu, maka console.log "Ganjil"
+        -  Karena sisa pembagian 12 dengan 2 == 0, maka yang muncul adalah Genap.
 - ### Looping
     - Apa itu looping?
         Statement yang mengulang sebuah instruksi hingga kondisi terpenuhi
     - Latihan
     ![](./asset/forloop..png)
+    Penjelasan:
+      -   Kita ingin melakukan pengulangan var i dengan nilai awal i = 1. kita ingin melakukan pengulangan sampai i bernilai <= 10. kita lakukan increment i+1 setiap pengulangannya. maka akan didapatkan hasil pencetakan angka 1-10 dalam console.
